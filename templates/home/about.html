@@ -1,4 +1,40 @@
 {% extends 'base.html' %}
 {% block title %} About {% endblock title %}
 {% block aboutactive %} active {% endblock aboutactive %}
-{% block body %} {% endblock body %}
+{% block body %}
+
+<main role="main">
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3"><b>Icoder Blog</b>-Publish your passions, your way</h1>
+            <h3><i>Create a unique and beautiful blog easily.</i></h3>
+            <p>Create a beautiful blog that fits your style. Choose from a selection of easy-to-use templates,all with flexible layouts and hundreds of background images-or design something new.</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+        </div>
+    </div>
+
+    <div class="container">
+    <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Know your Audience </h2>
+                <p>Find out which posts are a hit with Blogger's built-in analytics. You will see where your audience is coming from and what they are interested in. You can even connect your blog directly to Google Analytics for a more detailed look.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Join millions of others</h2>
+                <p>Whether sharing your expertise, breaking news, or whatever's on your mind, you are in good company on Blogger. Sign up to discover why millions of people have published their passions here.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            </div>
+            <div class="col-md-4">
+            <h2>Knowledge is power</h2>
+            <p>Since 2013, more than 10 million people visited our website to seek information on how to get started online. We offer help with free resources and advice.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            </div>
+        </div>
+        <hr>
+    </div> <!-- /container -->
+</main>
+
+{% endblock body %}
